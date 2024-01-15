@@ -31,3 +31,14 @@ function myColor() {
 favouriteColours[3] = myColor()
 
 console.log(favouriteColours)
+
+let myNumbers = [1, 2, 3, 4, 5]
+
+function calculation(x, y) {
+  let result = x + y
+  return result
+}
+
+myNumbers[myNumbers.length - 1] = calculation(8, 9)
+
+console.log(myNumbers)
